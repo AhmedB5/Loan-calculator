@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="muster.css" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="from">
+        <h6>Loan amount</h6>
+        <input type="number" class="amount" />
+        <h6>Loan term in months</h6>
+        <input type="text" class="months" />
+        <h6 class="hhh">Interest rate per year</h6>
+        <input type="text" class="Interest" placeholder="%" />
+        <div class="Calculate">Calculate</div>
+      </div>
+
+      <div class="to">
+        <span class="Monthly-payments">
+          Monthly payments
+          <span class="monthly"></span>
+        </span>
+
+        <span class="Total-principal"
+          >Total principal paid
+          <span class="Total"></span>
+        </span>
+        <hr />
+        <span class="Total-interest"
+          >Total interest paid
+          <span class="interest"></span>
+        </span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

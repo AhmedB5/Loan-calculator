@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 600px;
+  height: 310px;
+  display: flex;
+  margin: 80px auto;
+  border: 0.5px solid rgb(65, 114, 238);
+}
+.from {
+  background-color: #d2d9dc;
+  width: 300px;
+}
+
+h6 {
+  font-size: 8px;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.Interest {
+  width: 140px;
+  position: relative;
+  left: 10px;
+  top: 35px;
+}
+.hhh {
+  position: relative;
+  left: 20px;
+  top: 43px;
+}
+input {
+  width: 270px;
+  height: 30px;
+  position: relative;
+  left: 10px;
+  top: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid rgb(123, 137, 216);
+  padding-left: 8px;
+}
+.Calculate {
+  position: relative;
+  background-color: blue;
+  color: white;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  left: 160px;
+  top: 6px;
+  cursor: pointer;
+}
+
+.Monthly-payments {
+  position: relative;
+  left: 33%;
+  display: flex;
+}
+
+.Total-principal {
+  position: relative;
+  top: 105px;
+  font-size: 12px;
+  right: -18px;
+  display: flex;
+}
+
+hr {
+  position: relative;
+  top: 110px;
+  left: 21px;
+  width: 250px;
+}
+.Total-interest {
+  position: relative;
+  top: 110px;
+  left: 20px;
+  font-size: 12px;
+  display: flex;
+}
+
+.monthly {
+  position: relative;
+  top: 30px;
+  padding: 2px;
+  font-size: 15px;
+  right: 100px;
+  font-weight: bold;
+}
+
+.Total {
+  position: relative;
+  padding: 2px;
+  font-size: 15px;
+  left: 83px;
+  font-weight: bold;
+}
+
+.interest {
+  position: relative;
+  padding: 2px;
+  font-size: 15px;
+  left: 88px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+    width: 98%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+  }
+  .from {
+    width: 97%;
+    position: relative;
+    left: 5.5px;
+    height: 97%;
+    top: -21px;
+  }
+  .to {
+    margin-top: 4px;
+    /* background-color: #b3bdc7; */
+    background-color: #d2d9dc;
+    width: 100%;
+    border: solid 1px rgb(65, 114, 238);
+    padding: 10px;
+  }
+  hr {
+    width: 85%;
+    position: relative;
+    left: -6px;
+    background-color: rgb(255, 255, 255);
+  }
+  .Total-interest {
+    position: relative;
+    top: 120px;
+  }
+  input {
+    width: 90%;
+  }
+  .Calculate {
+    width: 170px;
+    height: 28px;
+    top: 6.8px;
+  }
+  h6 {
+    font-size: 11px;
+  }
+  .Monthly-payments {
+    font-size: 20px;
+    left: 92px;
+  }
+  .monthly {
+    font-size: 20px;
+    right: 118px;
+  }
+  .Total-principal,
+  .Total-interest {
+    font-size: 17px;
+  }
+}
